@@ -97,4 +97,4 @@ ORDER BY fc.created_at DESC;
 
 ## Problemy podczas uruchamiania testów
 
-- podczas uruchamiana testów test_search_positive_the_pickup przeglądarka Chromium nie odtwarza plików wideo dlatego komendy uruchamianie wszystkich testów orez testów e2e/api uwzględnia uruchomienie na prawdziwym Chromie
+- podczas uruchamiana test "test_search_positive_the_pickup" przeglądarka Chromium nie odtwarza plików wideo dlatego komendy uruchamianie wszystkich testów orez osobno testów e2e i api uwzględnia uruchomienie na prawdziwym Chromie
