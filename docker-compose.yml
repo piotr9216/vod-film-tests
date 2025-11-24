@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  vod-film-tests:
+    build: .
+    container_name: vod-film-tests
+    volumes:
+      - ./reports:/app/reports
