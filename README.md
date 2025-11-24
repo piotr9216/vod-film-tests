@@ -19,41 +19,67 @@ cd vod-film-tests
 
 2. Zainstaluj zależności:
 
-- `pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 Zainstaluj przeglądarki Playwright:
 
-- `playwright install`
+```bash
+playwright install
+```
 
 ## Uruchomienie testów:
 
 1. Wszystkie testy
 
-- `pytest --browser chromium --browser-channel chrome -s`
+```bash
+pytest --browser chromium --browser-channel chrome -s
+```
+
+```bash
+pytest
+```
 
 2. Tylko testy E2E
 
-- `pytest tests/test_e2e.py --browser chromium --browser-channel chrome -s`
-- `pytest tests/test_e2e.py -v`
+```bash
+pytest tests/test_e2e.py --browser chromium --browser-channel chrome -s
+```
+
+```bash
+pytest tests/test_e2e.py -v
+```
 
 3. Tylko testy API
 
-- `pytest tests/test_api.py --browser chromium --browser-channel chrome -s`
-- `pytest tests/test_api.py -v`
+```bash
+pytest tests/test_api.py --browser chromium --browser-channel chrome -s
+```
+
+```bash
+pytest tests/test_api.py -v
+```
 
 ## Uruchamianie z Docker
 
 Budowanie i uruchamianie
 
-- `docker-compose up --build`
+```bash
+docker-compose up --build
+```
 
 Tylko budowanie
 
-- `docker build -t vod-film-tests`
+```bash
+docker build -t vod-film-tests
+```
 
 Uruchamianie
 
-- `docker run -v $(pwd)/reports:/app/reports vod-film-testsmianie z Docker`
+```bash
+docker run -v $(pwd)/reports:/app/reports vod-film-testsmianie z Docker
+```
 
 ## Analiza SQL (teoretyczna)
 
