@@ -2,7 +2,7 @@
 
 ## Błąd nr 1: Przycisk "Wyczyść" przy filtrze "Sortuj wg" nie resetuje sortowania
 
-**Tytuł:** Przycisk "Wyczyść" na stronie Filmy przy filtrze "Sortuj wg" nie resetuje zastosowanego sortowania
+**Krótki opis:** Przycisk "Wyczyść" na stronie Filmy przy filtrze "Sortuj wg" nie resetuje zastosowanego sortowania. Po kliknięciu przycisku brak nowych zdarzeń w devtools.
 
 **Środowisko:**
 
@@ -14,7 +14,7 @@
 
 1. Wejdź na stronę https://vod.film/filmy
 2. Kliknij w listę rozwijaną "Sortuj wg."
-3. Wybierz dowolną opcję sortowania (np. "Popularnośc rosnąco")
+3. Wybierz dowolną opcję sortowania (np. "Popularność rosnąco")
 4. Zaobserwuj zmianę w kolejności wyświetlanych filmów
 5. Kliknij przycisk "Wyczyść" znajdujący się obok listy rozwijanej
 6. Sprawdź kolejność wyświetlania filmów
@@ -42,7 +42,7 @@ Po kliknięciu "Wyczyść":
 
 ## Błąd nr 2: Po wyczyszczeniu filtrów w url dale pozostaje filtrowana fraza
 
-**Tytuł:** Po kliknięciu przycisku "Wyczyść filtry" na stronie gatunki zakłądka reality-showw adresie url dalej pozostają wyszukiwane frazy
+**Krótki opis:** Po kliknięciu przycisku "Wyczyść filtry" w zakładce Filmy (przycisk wyświetlany gdy po filtrowaniu nie ma żadnych wyników do wyświetlenia) w adresie url dalej pozostają wyszukiwane frazy.
 
 **Środowisko:**
 
@@ -66,8 +66,8 @@ Po kliknięciu "Wyczyść":
 
 **Rezultat aktualny (AR):**
 
-- W adresie url pozostaj query z filtrownai: https://vod.film/filmy?rating=10&year=1920-1920
-- Przy ponownej próbie fitrowania poprzednie filtry dalej obowiązują
+- W adresie url pozostaje query z filtrowanie: https://vod.film/filmy?rating=10&year=1920-1920
+- Przy ponownej próbie filtrowania poprzednie filtry dalej obowiązują
 
 **Sugerowany priorytet:** Średni
 
